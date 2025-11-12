@@ -1,18 +1,13 @@
 #include <iostream>
 using namespace std;
-int main(){
-	int a = 5;      // pierwsza liczba
-	int b = 3;      // druga liczba
-	
-	int suma = a + b;
-	int roznica = a - b;
-	int iloczyn = a * b;
-
-	cout << "Liczba a: " << a << endl;
-	cout << "Liczba b: " << b << endl;
-	cout << "Suma: " << suma << endl;
-	cout << "Różnica: " << roznica << endl;
-	cout << "Iloczyn: " << iloczyn << endl;
-	
-	return 0;
+ 
+int main()
+{  // 2
+    cout << endl<< "zadanie 2. " << endl;
+    int a = 5;
+    int b = 3;
+    cout << "Liczba a: " << a << endl<< "Liczba b: " << b << endl;
+    cout << "suma: " << a + b << endl;
+    cout << "Roznica: " << a - b << endl;
+    cout << "iloczyn:" << a * b << endl;
 }
