@@ -9,9 +9,9 @@ int main()
          int aa;
          int bb;
  
-         cout <<"podaj pierwszą liczbę: ";
+         cout <<"podaj pierwsze liczbe: ";
          cin >>aa;
-         cout <<"podaj drugą liczbę: ";
+         cout <<"podaj druga liczbe: ";
          cin >>bb;
          cout <<"Suma: "<< aa+bb<<endl;
  
