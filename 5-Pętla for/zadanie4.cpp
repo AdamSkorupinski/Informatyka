@@ -1,4 +1,6 @@
-#include <iostream>
+
+  #include <iostream>
+
 using namespace std;
  
 int main()
@@ -10,7 +12,7 @@ int main()
    int b;
    cout <<"Podaj liczbe kolumn: ";
    cin >> b;
- 
+
    cout <<endl;
  
    int c = 1;
