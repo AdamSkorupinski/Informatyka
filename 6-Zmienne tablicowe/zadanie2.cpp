@@ -16,14 +16,19 @@ int main()
 	
 	float suma;
 	
-	for(int i = 1; i < 6; i++)
-	{
-		suma += a[i];
 	}
-	
-	suma = suma/5;
-	cout << endl <<"suma: " << suma;
-	
-	
+	for(int i = 1; i < 6; i++)
+	if (a[i]<0){a[i]=0;}
+	else{a[i]=-a[i];}
+	}
+		cout << "liczby ujemne zamienione na:";
+
+
+
+
+
+
+
+
 	    return 0;
 }
