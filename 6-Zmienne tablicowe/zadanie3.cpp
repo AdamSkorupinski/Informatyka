@@ -8,7 +8,7 @@ int main()
     cout<<"podaj 10 liczb calkowitych:"<<endl;
     for (int i = 0; i < 10; i++)
     {
-        cout << "Podaj liczbe nr "<< i+1 << ":";
+        cout << "Podaj liczbe nr "<< i+1 << ": ";
         cin >> a[i];
     }
  

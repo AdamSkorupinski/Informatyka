@@ -25,6 +25,6 @@ int main()
         }
        
     }
-    cout<<endl <<"Suma liczb parzystych:  "<< suma;
+    cout<<endl <<"Suma liczb parzystych: "<< suma;
     return 0;
 }

@@ -24,6 +24,6 @@ int main()
         }
     }
     cout << endl
-         << "Suma liczb:  " << suma;
+         << "Suma elemetow macierzy: " << suma;
     return 0;
 }

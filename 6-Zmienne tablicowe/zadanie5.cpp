@@ -24,6 +24,6 @@ int main()
         }
     }
     cout << endl
-         << "Srednia liczb:  " << srednia / 9;
+         << "Srednia liczb: " << srednia / 9;
     return 0;
 }
