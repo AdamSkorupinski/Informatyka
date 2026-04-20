@@ -35,7 +35,7 @@ int main()
              << "3. Iloczyn" << endl
              << "4. Iloraz" << endl
              << "0. Wyjscie" << endl
-             << "Wybrana funkcja:";
+             << "Wybrana funkcja: ";
         cin >> opcja;
         int a;
         int b;
@@ -43,6 +43,7 @@ int main()
         switch (opcja)
         {
         case 0:
+            cout << "Koniec programu." << endl;
             dziala = false;
             break;
         case 1:
