@@ -1,26 +1,52 @@
 #include <iostream>
+#include <ctime>
+#include <cstdlib>
 using namespace std;
- 
- int tab[5];
-void GetArrayFromUser()
+
+
+void DuzaMala(int liczba, int wylosowanaLiczba)
 {
-    cout<<"podaj liczbe:"<<endl;
-    for (int i = 0; i < 5; i++)
+    if(liczba == wylosowanaLiczba)
     {
-        cout << "Podaj liczbe: "<< i+1 << ": ";
-        cin >> tab[i];
-    } 
+        cout << "Gratulacje! Odgadles liczbe.";
+        
+    }else if (liczba < wylosowanaLiczba)
+    {
+        cout << "za malo";
+    }else if (liczba > wylosowanaLiczba)
+    {
+        cout << "za duzo";
+    }
 }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-     return 0;
+bool CheckLiczba(int liczba, int wylosowanaLiczba)
+{
+    if (liczba == wylosowanaLiczba)
+    {
+        return true;
+    }
+    return false;
+}
+
+int main()
+{
+    
+    srand(time(NULL));
+    int wylosowanaLiczba = rand() % 100 + 1;
+    int podana;
+    bool szuka = false;
+    while (!szuka)
+    { 
+        cout <<endl <<"podaj liczbe: ";
+        cin >> podana;
+        DuzaMala(podana, wylosowanaLiczba);
+        szuka = CheckLiczba(podana, wylosowanaLiczba);
+    }
+
+   
+    
+    
+  
+    
+
+    return 0;
 }
